@@ -24,7 +24,7 @@ public class Employee extends Person {
 }
 
 /*covariant return type 
- * The access specifier for an overriding method can allow more, but not less, access than the overridden method. 
+ * The access specifier for an overriding(child)method can allow more, but not less, access than the overridden(parent) method. 
  * For example, a protected instance method in the superclass(parent) can be made public, but not private, in the subclass(child)
  *  If you force it to be done, it will cause a compile-time error.(cannot give less access than parent class to child)
  */
